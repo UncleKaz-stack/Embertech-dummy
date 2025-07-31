@@ -1,84 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EmberTech Studio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/182/182292.png" />
-  </head>
-  <body class="bg-gray-900 text-white font-sans">
-    <!-- Navbar -->
-    <header class="bg-gray-800 px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold">EmberTech</h1>
-      <nav class="space-x-4">
-        <a href="#about" class="hover:text-amber-400">About</a>
-        <a href="#services" class="hover:text-amber-400">Services</a>
-        <a href="#contact" class="hover:text-amber-400">Contact</a>
-      </nav>
-    </header>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boslayos - Penyedia Layos Profesional</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-yellow-100 border-b border-yellow-300 py-6 shadow-sm">
+    <div class="max-w-4xl mx-auto px-4">
+      <h1 class="text-3xl font-bold text-yellow-700">Boslayos</h1>
+      <p class="text-sm text-yellow-600">Penyedia Layos untuk Acara Pernikahan, Adat, dan Kegiatan Istimewa</p>
+    </div>
+  </header>
 
-    <!-- Hero -->
-    <section class="text-center py-20 bg-gray-900">
-      <h2 class="text-4xl font-extrabold mb-4">Bringing Your Ideas to Fire</h2>
-      <p class="text-gray-300 max-w-xl mx-auto">
-        We craft immersive digital experiences and visual identities that spark connection.
+  <!-- Hero -->
+  <section class="bg-yellow-50 py-12">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold text-yellow-700 mb-4">Membawa Keindahan Tradisi ke Setiap Acara</h2>
+      <p class="text-gray-700">Boslayos adalah pilihan terpercaya dalam penyediaan layos untuk berbagai keperluan—dari pernikahan sakral, upacara adat, hingga event modern yang ingin tetap bernuansa budaya.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-xl font-semibold text-yellow-700 mb-6 text-center">Layanan Kami</h3>
+      <ul class="grid gap-6 md:grid-cols-3">
+        <li class="bg-yellow-50 p-4 rounded shadow-sm border border-yellow-200">
+          <h4 class="font-bold text-yellow-800 mb-2">Layos Pernikahan</h4>
+          <p>Berbagai bentuk dan ukuran layos untuk upacara pernikahan tradisional maupun modern.</p>
+        </li>
+        <li class="bg-yellow-50 p-4 rounded shadow-sm border border-yellow-200">
+          <h4 class="font-bold text-yellow-800 mb-2">Layos Adat & Budaya</h4>
+          <p>Kami memahami pentingnya simbol dan estetika dalam acara adat—dan siap mendukungnya.</p>
+        </li>
+        <li class="bg-yellow-50 p-4 rounded shadow-sm border border-yellow-200">
+          <h4 class="font-bold text-yellow-800 mb-2">Dekorasi & Penataan</h4>
+          <p>Paket lengkap termasuk dekorasi panggung, pemasangan layos, hingga pencahayaan tema budaya.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Message -->
+  <section class="bg-yellow-100 py-10">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <p class="italic text-gray-700 text-lg">
+        "Web ini dibuat oleh putra saya untuk Boslayos. Saya berharap melalui tampilan ini, saya bisa menunjukkan bahwa saya turut peduli dengan warisan keluarga dan ingin melihatnya tumbuh. Semoga suatu saat bisa bantu upgrade laptop juga, ya Pah."
       </p>
-      <button class="mt-6 px-6 py-2 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded">
-        Get Started
-      </button>
-    </section>
+      <p class="mt-4 text-sm text-yellow-600">— Heizel EfS</p>
+    </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="py-16 px-6 bg-gray-800">
-      <div class="max-w-3xl mx-auto text-center">
-        <h3 class="text-3xl font-bold mb-4">About Us</h3>
-        <p class="text-gray-300">
-          EmberTech is a digital design studio based in your imagination. We specialize in visual branding, UI/UX,
-          and interactive media.
-        </p>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section id="services" class="py-16 px-6 bg-gray-900">
-      <div class="max-w-5xl` mx-auto grid md:grid-cols-3 gap-8 text-center">
-        <div>
-          <h4 class="text-xl font-semibold mb-2">Web Design</h4>
-          <p class="text-gray-400">Responsive, aesthetic, and purpose-driven design.</p>
-        </div>
-        <div>
-          <h4 class="text-xl font-semibold mb-2">Branding</h4>
-          <p class="text-gray-400">Crafting identities that leave a mark.</p>
-        </div>
-        <div>
-          <h4 class="text-xl font-semibold mb-2">UI/UX Consulting</h4>
-          <p class="text-gray-400">Making digital interaction smooth and meaningful.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="py-16 px-6 bg-gray-800 text-center">
-      <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
-      <p class="text-gray-300">📧 contact@embertech.fake — 📍 Somewhere on the cloud</p>
-    </section>
-
-<!-- Footer -->
-<footer class="bg-gray-900 text-gray-400 text-center py-8 mt-12 border-t border-gray-700">
-  <div class="mb-2 text-gray-500 text-sm">
-    &copy; 2025 EmberTech Studio. All rights reserved.
-  </div>
-  <p class="text-sm italic">
-    Website ini diam-diam diintip dan disetujui oleh seseorang misterius bernama...
-    <span class="text-lime-400 font-bold">Elyas™</span>
-  </p>
-  <p class="text-xs mt-2 text-gray-600">
-    (Katanya sih dia cuma lewat doang terus bilang “keren juga ya, lanjutkan.”)
-  </p>
-</footer>
-
-  </body>
-</html>
+  <!-- Footer -->
+  <footer class="bg-yellow-800 text-yellow-100 text-center py-4 text-sm">
+    © 2025 Boslayos · Semua hak dilindungi. Website ini dibuat dengan sepenuh hati.
+  </footer>
 </body>
 </html>
